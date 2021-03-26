@@ -23,4 +23,8 @@
 
 #### i write this readme after years of not looking at this project or testing the code, so not sure how accurate all of those are, but i remember the problems because they pained me greatly
 * the object test and dinky little class scripts were a method to learn and familiarize myself with objects (that is still greatly in the process)
-* i alos thought it would be fun to desing minor creatures and heroes and include snippets about them
+* i also thought it would be fun to desing minor creatures and heroes and include snippets about them
+
+#### repo structuring
+* separate folders for heroes / monsters? break each one out into its own file?
+* in pyxis dir, break out hint funcs into separate files? separate file for 'main' + dialogue?
