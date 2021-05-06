@@ -1,7 +1,7 @@
 # The Last Dream
 
 ### Working files
-* some tests with object instatiation
+* some tests with object instantiation
 * several prototypes of the pyxis game
 
 ### the most recent version of pyxis doesn't work as intended
