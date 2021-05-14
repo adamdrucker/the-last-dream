@@ -10,7 +10,9 @@ import time
 # Init main variables
 # //////////////////////////////////////
 result = str(randint(10, 99))               # Random answer generated at start of sequence
-
+result_sum = int(result[0]) + int(result[1])
+first_dig = result[0]
+second_dig = result[1]
 
 # Opening dialogue
 # //////////////////////////////////////
@@ -42,7 +44,7 @@ def main():
 
         # == First hint ==
         def hint_sum():
-            result_sum = int(result[0]) + int(result[1])
+            # result_sum = int(result[0]) + int(result[1])
             print(f"You sense the sum of the two digits is {result_sum}.")
 
 
@@ -50,8 +52,8 @@ def main():
         def hint_int():
             # /// Init variables ///
             digit_type_hint = randint(0, 1)
-            first_dig = result[0]
-            second_dig = result[1]
+            # first_dig = result[0]
+            # second_dig = result[1]
 
             # // Logic ///
             if first_dig == second_dig:
